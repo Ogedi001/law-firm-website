@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+nav{
+  background-color: rgb(15, 9, 33);
+}
+.nav-link {
+  color: aliceblue;
+}
+.navbar-nav .nav-link {
+  white-space: nowrap;
+  margin-right: 20px;
+}
+.navbar-nav li:hover{
+color: rgb(0, 0, 0);
+background-color: aliceblue;
+border-radius: 3px;
+}
+ 
+footer {
+  background-color: #e0e0e9;
+}
