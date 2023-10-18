@@ -1,0 +1,18 @@
+.contact-section {
+    margin-top: 68px;
+}
+
+body {}
+
+.contact-form {
+    /* background-color: #e5e6e8; */
+    background-color: rgba(12, 12, 94, 0.2);
+    border: 1px solid #dee2e6;
+    border-radius: 2px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    border-radius: 4px;
+}

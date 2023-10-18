@@ -1,0 +1,41 @@
+
+body{
+   background-color: #e2e8f0; 
+}
+#about-us {
+/* background-color: #e2e8f0; */
+  margin-top: 75px;
+}
+
+@media (max-width: 991px) {
+ #about-us {
+    margin-top: 138px; /* You can adjust the margin size as needed */
+  }
+}
+
+ #about-us{
+  transition: margin-top 0.3s; /* Add a smooth transition effect */
+}
+
+
+.row{
+     background-color: rgba(175, 172, 172, 0.25);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.core-values-container,.mission-container{
+     background-color: #f8f9fa;
+  /* border: 1px solid #dee2e6; */
+  border-radius: 5px;
+  padding: 20px;
+ margin: 20px;
+}
+
+
+
+.team-member img {
+  max-width: 100%;
+  border-radius: 3px;
+}

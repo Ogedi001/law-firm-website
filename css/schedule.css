@@ -1,29 +1,25 @@
-.practice-areas{
-    margin-top:70.5px ;
+body{
+      background-color: rgba(12, 12, 94, 0.2);
 }
-
-/* Add margin-top when the navbar collapses (on smaller screens) */
-@media (max-width: 1050px) {
- .practice-areas{
-    margin-top: 56px;
-  } 
+.appointment-form {
+  background-color: #eaecf1;
+  border: 1px solid #dee2e6;
+  border-radius: 2px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.appointment{
+    margin-top: 75px;
 }
 
 @media (max-width: 991px) {
-  .practice-areas{
-    margin-top: 138px; 
+.appointment{
+    margin-top: 145px;
   }
 }
 
-@media (max-width: 900px) {
-  .practice-areas{
-    margin-top: 128px;
-  }
-}
-
-/* Ensure the navbar remains fixed when it expands */
-.practice-areas{
-  transition: margin-top 0.3s; /* Add a smooth transition effect */
+ #about-us{
+  transition: margin-top 0.3s; 
 }
 
 

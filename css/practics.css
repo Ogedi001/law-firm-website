@@ -2,6 +2,18 @@
     margin-top: 100px;
 }
 
+/* Add margin-top when the navbar collapses (on smaller screens) */
+@media (max-width: 991px) {
+   .practice-areas{
+    margin-top: 150px; 
+  }
+}
+
+/* Ensure the navbar remains fixed when it expands */
+.practice-areas{
+  transition: margin-top 0.3s; 
+}
+
 .practice-area {
     margin-top: 40px;
     background-color: #f8f9fa;
