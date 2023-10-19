@@ -1,8 +1,7 @@
 .contact-section {
-    margin-top: 68px;
+    margin-top: 65px;
 }
 
-body {}
 
 .contact-form {
     /* background-color: #e5e6e8; */
@@ -15,4 +14,17 @@ body {}
 
 #contact-form {
     border-radius: 4px;
+}
+
+@media (max-width: 991px) {
+.contact-section {
+    margin-top: 135px; /* You can adjust the margin size as needed */
+  }
+}
+
+/* sm screen */
+@media (max-width: 991px){
+  .contact-section{
+    margin-top:120px;
+  }
 }

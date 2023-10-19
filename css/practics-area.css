@@ -1,29 +1,40 @@
-.practice-areas{
-    margin-top:70.5px ;
+.practice-areas {
+  margin-top: 70.5px;
 }
 
 /* Add margin-top when the navbar collapses (on smaller screens) */
 @media (max-width: 1050px) {
- .practice-areas{
+  .practice-areas {
     margin-top: 56px;
-  } 
+  }
 }
 
+/* sm screen */
 @media (max-width: 991px) {
-  .practice-areas{
-    margin-top: 138px; 
+  .practice-areas {
+    margin-top: 132px;
+    display: inline-block;
+  }
+  .row{
+ text-align: center;
+  }
+
+  .img {
+    margin-bottom: 20px;
   }
 }
 
 @media (max-width: 900px) {
-  .practice-areas{
+  .practice-areas {
     margin-top: 128px;
   }
 }
 
+
 /* Ensure the navbar remains fixed when it expands */
-.practice-areas{
-  transition: margin-top 0.3s; /* Add a smooth transition effect */
+.practice-areas {
+  transition: margin-top 0.3s;
+  /* Add a smooth transition effect */
 }
 
 
@@ -58,4 +69,3 @@
 .btn-schedule:hover {
   box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
 }
-

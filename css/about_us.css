@@ -4,14 +4,10 @@ body{
 }
 #about-us {
 /* background-color: #e2e8f0; */
-  margin-top: 75px;
+  margin-top: 80px;
 }
 
-@media (max-width: 991px) {
- #about-us {
-    margin-top: 138px; /* You can adjust the margin size as needed */
-  }
-}
+
 
  #about-us{
   transition: margin-top 0.3s; /* Add a smooth transition effect */
@@ -38,4 +34,24 @@ body{
 .team-member img {
   max-width: 100%;
   border-radius: 3px;
+}
+
+.second-row img{
+  height:180px ;
+}
+.third-row img{
+  height:180px;
+}
+
+@media (max-width: 991px) {
+ #about-us {
+    margin-top: 138px; /* You can adjust the margin size as needed */
+  }
+}
+
+/* sm screen */
+@media (max-width: 991px){
+  .team-member{
+    margin-bottom:20px;
+  }
 }
